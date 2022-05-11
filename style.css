@@ -16,7 +16,7 @@ section{
     background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     /* background-position: right; */
-    background-position-x: 260px;
+    background-position-x: 90%;
     background-position-y: 30px;
     background-color: hsl(263, 55%, 52%);
     width: 90%;
@@ -24,6 +24,8 @@ section{
     border-radius: 7px;
     margin-top: 70px;
     color: white;
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 .daniel-container img{
