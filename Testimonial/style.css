@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow Semi Condensed;
+}
+
+body{
+    background-color:  hsl(210, 46%, 95%);
+}
+
+.daniel-container{
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 260px;
+    background-position-y: 30px;
+    background-color: hsl(263, 55%, 52%);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 70px;
+    color: white;
+}
+
+.daniel-container img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(263, 44%, 78%);
+}
+
+.daniel-container .mainquote{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.daniel-container .subquote{
+    width: 81%;
+    margin: 0 auto;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+
+.jonathan-container{  
+    background-color: hsl(217, 19%, 35%);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 20px;
+    color: white;
+}
+
+.jonathan-container img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(263, 44%, 78%);
+}
+
+.jonathan-container .mainquote{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.jonathan-container .subquote{
+    width: 81%;
+    margin: 0 auto;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+
+
+.jeanette-container{  
+    background-color:  hsl(0, 0%, 100%);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 20px;
+    color:  hsl(219, 29%, 14%);
+}
+
+.jeanette-container img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(263, 44%, 78%);
+}
+
+.VG-jean{
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette-container .mainquote{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.jeanette-container .subquote{
+    width: 81%;
+    margin: 0 auto;
+    line-height: 24px;
+    color:  hsl(217, 19%, 35%);
+    padding-bottom: 40px;
+}
+
+
+
+.patrick-container{  
+    background-color:  hsl(219, 29%, 14%);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 20px;
+    color: white;
+}
+
+.patrick-container img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(263, 44%, 78%);
+}
+
+.patrick-container .mainquote{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.patrick-container .subquote{
+    width: 81%;
+    margin: 0 auto;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+
+
+.kira-container{  
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 20px;
+    color: hsl(219, 29%, 14%);
+    box-shadow: 70px;
+    margin-bottom: 100px;
+}
+
+.kira-container img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid hsl(263, 44%, 78%);
+}
+
+.kira-container .mainquote{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+.kira-container .subquote{
+    width: 81%;
+    margin: 0 auto;
+    line-height: 24px;
+    color: hsla(217, 30%, 14%, 0.6);
+    padding-bottom: 40px;
+}
+
+.img-verified{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    column-gap: 10px;
+}
+.VG{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+@media (min-width: 768px) {
+    .testimonial-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        row-gap: 20px;
+        /* justify-content: center;
+        align-items: center;
+        align-items: baseline; */
+    }
+    .daniel-container{
+        margin-top: 20px;
+        grid-column: 1 / 3;
+    }
+    .patrick-container{
+        grid-area: 2 / 2 / 3 / 4;
+    }
+    .kira-container{
+        grid-area: 1 / 4 / 3 / 5;
+    }
+}
